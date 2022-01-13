@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section>
+      
+  <header>
+    <hr class="one-line">
+    <hr class="two-line">
+    <h1>Register</h1>
+    <p>Create your account. It`s free and only takes a minute.</p>
+  </header>
+ 
+    <form action="#">
+      <fieldset>
+        <input class="size-block-1" type="text" placeholder="First Name" name="First-Name" pattern="[A-Za-z] {6, 10}" required>
+        <input class="size-block-1" type="text" placeholder="Last Name" name="First-Name" pattern="[A-Za-z] {6, 10}" required>
+      </fieldset>
+
+      <fieldset>
+        <input class="size-block-2" type="email" placeholder="Email" name="Email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+ {6, 14}" required>
+        <input class="size-block-2" type="password" placeholder="Password" name="Pasword" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8, 10}$" required>
+        <input class="size-block-2" type="password" placeholder="Config Password" required>
+        <input class="I-accept" type="checkbox" required>I accept the<a  class="check" target="_blank" href="#">Terms of Use</a>&<a class="check" target="_blank" href="#">Privacy Policy.</a>
+      </fieldset>
+
+      <fieldset>
+        <input class="button" type="submit" placeholder="Registr Now" name="Registr-Now" value="Registr Now" required> 
+      </fieldset>
+    </form>
+
+  </section>
+  </main>
+</body>
+</html>

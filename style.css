@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 100px auto;
+  max-width: 400px;
+  min-height: 450px;
+  background-color: #e2e3e7;
+  border: 1px solid black;
+  font-family: sans-serif;
+  color: darkgrey;
+  position: relative;
+  text-align: center;
+}
+
+.one-line {
+  position: absolute;
+  width: 30%;
+  top: 55px;
+  left:20px;
+}
+
+.two-line {
+  position: absolute;
+  width: 30%;
+  top: 55px;
+  right: 20px;
+} 
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  color: black;
+}
+
+p {
+  margin-top: 90px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+.size-block-1 {
+  width: 45%;
+  height: 30px;
+}
+
+.size-block-2 {
+  width: 90%;
+  height: 30px;
+}
+
+input {
+  margin-bottom: 20px;
+  margin: none;
+  padding: none;
+}
+
+.I-accept {
+  margin-left: 20px;
+}
+
+.check {
+  font-style: none;
+  color: darkgreen;
+}
+
+.button {
+  width: 90%;
+  height: 30px;
+  background: rgb(87,171,83);
+  background: linear-gradient(90deg, rgba(87,171,83,1) 0%, rgba(66,151,66,1) 35%, rgba(0,0,0,1) 100%);
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
